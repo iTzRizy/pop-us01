@@ -1,0 +1,102 @@
+:root {
+    --backgroundc: #ffff;
+    --text: #0000;
+    --button1: #2c3e50;
+    --button2: #ed6755;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+
+*{
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+.container1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #0000;
+    background: #ffff;
+    flex-direction: column;
+    border-radius: 1rem;
+    margin-top: 10%;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding-bottom: 5%;
+}
+
+.saly {
+    padding-top: 50px;
+}
+
+.container1 p {
+    font-size: 18px;
+    text-align: center;
+    width: 300px;
+    height: 72px;
+}
+
+.boton1 {
+    display: flex;
+    color: aliceblue;
+    background-color: rgb(0, 0, 0);
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 20px;
+    pointer-events: painted;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.cruzz {
+    width: 5%;
+    padding-left: 400px;
+    padding-top: 5%;
+}
+
+.container2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #0000;
+    background: #ffff;
+    flex-direction: column;
+    border-radius: 1rem;
+    margin-top: 10%;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding-bottom: 5%;
+}
+
+.cruzz1 {
+    width: 5%;
+    padding-left: 400px;
+    padding-top: 5%;
+}
+
+.frame {
+    padding-top: 50px; 
+}
+
+.boton2 {
+    display: flex;
+    color: aliceblue;
+    background-color: rgb(0, 0, 0);
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 20px;
+    pointer-events: painted;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.container2 p {
+    font-size: 18px;
+    text-align: center;
+    width: 300px;
+    height: 72px;
+}
